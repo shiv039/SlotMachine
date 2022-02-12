@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SlotMachine/static/css/main.a3d3d973.chunk.css",
-    "main.js": "/SlotMachine/static/js/main.fdf78c5f.chunk.js",
-    "main.js.map": "/SlotMachine/static/js/main.fdf78c5f.chunk.js.map",
+    "main.js": "/SlotMachine/static/js/main.c79cdfeb.chunk.js",
+    "main.js.map": "/SlotMachine/static/js/main.c79cdfeb.chunk.js.map",
     "runtime-main.js": "/SlotMachine/static/js/runtime-main.2edaf24a.js",
     "runtime-main.js.map": "/SlotMachine/static/js/runtime-main.2edaf24a.js.map",
     "static/js/2.6ea11204.chunk.js": "/SlotMachine/static/js/2.6ea11204.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.2edaf24a.js",
     "static/js/2.6ea11204.chunk.js",
     "static/css/main.a3d3d973.chunk.css",
-    "static/js/main.fdf78c5f.chunk.js"
+    "static/js/main.c79cdfeb.chunk.js"
   ]
 }
