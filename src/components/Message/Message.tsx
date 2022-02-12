@@ -7,16 +7,7 @@ type MessageProps = {
 };
 
 export const loserMessages = [
-    'Not quite 😕',
-    'Stop gambling 😈',
-    'Hey, you lost! 🙃',
-    'Ouch! I felt that 🤭',
-    "Don't beat yourself up 👊",
-    'There goes the college fund 💸',
-    'I have a cat. You have a loss 😂',
-    "You're awesome at losing 🤪",
-    'Coding is hard 🥶',
-    "Don't hate the coder 😇"
+    'Not quite 😕'
 ];
 
 export const winnerMessages: { [type: string]: string } = {
@@ -30,7 +21,7 @@ const Message: React.FC<MessageProps> = ({ score }: MessageProps) => {
     if (typeof winnerMessages[score] !== 'undefined') {
         message = winnerMessages[score];
     } else {
-        message = loserMessages[Math.floor(Math.random() * loserMessages.length)] + ' ';
+        message = loserMessages + ' ';
     }
 
     return <p className={styleClasses['message']}>{message}</p>;
