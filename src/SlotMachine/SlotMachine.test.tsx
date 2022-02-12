@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import SlotMachine from './SlotMachine';
-import Button from 'components/Button';
+import Button from '../components/Button';
 
 describe('<SlotMachine />', () => {
     const comp = <SlotMachine />;

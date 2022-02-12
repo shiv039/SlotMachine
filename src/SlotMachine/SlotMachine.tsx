@@ -1,9 +1,9 @@
 import React from 'react';
 
-import useSlotMachine from '../../hooks/useSlotMachine';
-import Wheel from '../../components/Wheel';
-import Message from '../../components/Message';
-import Button from '../../components/Button';
+import useSlotMachine from '../hooks/useSlotMachine';
+import Wheel from '../components/Wheel';
+import Message from '../components/Message';
+import Button from '../components/Button';
 import styleClasses from './SlotMachine.module.scss';
 
 const SlotMachine: React.FC = () => {

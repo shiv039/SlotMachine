@@ -1,10 +1,10 @@
 import React from 'react';
 
 import styleClasses from './Wheel.module.scss';
-import Strawberry from '../../containers/SlotMachine/media/strawberry.svg';
-import Orange from '../../containers/SlotMachine/media/orange.svg';
-import Banana from '../../containers/SlotMachine/media/banana.svg';
-import Monkey from '../../containers/SlotMachine/media/monkey.svg';
+import Strawberry from '../../SlotMachine/media/strawberry.svg';
+import Orange from '../../SlotMachine/media/orange.svg';
+import Banana from '../../SlotMachine/media/banana.svg';
+import Monkey from '../../SlotMachine/media/monkey.svg';
 
 type WheelProps = {
     randomIndex: number;
